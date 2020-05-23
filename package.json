@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-restapi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An example REST API in Node.js using Express and Sequelize",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollen5/nodejs-restapi.git"
+  },
+  "keywords": [
+    "node.js",
+    "node",
+    "js",
+    "api",
+    "express",
+    "sequelize",
+    "sql",
+    "postgresql",
+    "rest"
+  ],
+  "author": "PoLLeN <pollen@itsladybug.ml> (https://itsladybug.ml/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pollen5/nodejs-restapi/issues"
+  },
+  "homepage": "https://github.com/pollen5/nodejs-restapi#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "express-validator": "^6.5.0",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.10"
+  }
+}
